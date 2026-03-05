@@ -1,5 +1,5 @@
 context:
-  version: "0.3.0"
+  version: "0.4.1"
   python_min: 3.10.0
 
 package:
@@ -8,12 +8,12 @@ package:
 
 source:
   url: https://pypi.org/packages/source/e/einx/einx-${{ version }}.tar.gz
-  sha256: 17ff87c6a0f68ab358c1da489f00e95f1de106fd12ff17d0fb3e210aaa1e5f8c
+  sha256: 290248d4b1e979175cd5421e1144e66eaa58b992dde6f4a788429271184fc973
 
 build:
   number: 0
-  noarch: python 
-  script: python -m pip install . -vv --no-deps --no-build-isolation 
+  noarch: python
+  script: python -m pip install . -vv --no-deps --no-build-isolation
 
 requirements:
   host:
