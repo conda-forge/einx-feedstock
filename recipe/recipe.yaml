@@ -1,5 +1,5 @@
 context:
-  version: "0.4.2"
+  version: "0.4.3"
   python_min: 3.10.0
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/e/einx/einx-${{ version }}.tar.gz
-  sha256: 9aeea7053a4f683235e81b62383069085cc919a012748c8575f3557455377e11
+  sha256: be7d81ea1908b9f00e4a467840998fc483c33aa32aaaaa3ada6c8386f693edf9
 
 build:
   number: 0
